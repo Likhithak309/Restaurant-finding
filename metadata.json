@@ -1,0 +1,6 @@
+{
+  "name": "Epicurean: Nearby High-Rated Restaurant Finder",
+  "description": "Discover nearby top-rated culinary destinations with real-time star ratings, interactive map exploration, and filters for cuisine and price range.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
