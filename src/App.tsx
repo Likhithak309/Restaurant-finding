@@ -5,6 +5,7 @@ import { RestaurantCard } from './components/RestaurantCard';
 import { RestaurantDetailModal } from './components/RestaurantDetailModal';
 import { MapView } from './components/MapView';
 import { QuotaWarningBanner } from './components/QuotaWarningBanner';
+import { N8nChatWidget } from './components/N8nChatWidget';
 import { Restaurant, FilterState, SortOption } from './types/restaurant';
 import { POPULAR_LOCATIONS } from './data/seedRestaurants';
 import { fetchNearbyRestaurants } from './services/placesService';
@@ -340,6 +341,9 @@ export default function App() {
           if (modalRestaurant) toggleBookmark(modalRestaurant.id);
         }}
       />
+
+      {/* n8n AI Chatbot Widget */}
+      <N8nChatWidget />
     </div>
   );
 }
